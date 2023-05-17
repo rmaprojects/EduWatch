@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_student_stat"
+        android:title="Statistik"
+        android:icon="@drawable/baseline_area_chart_24"
+        />
+    <item
+        android:id="@+id/nav_calendar_student"
+        android:title="Kalender"
+        android:icon="@drawable/baseline_calendar_month_24"
+        />
+    <item
+        android:id="@+id/nav_student_scoring"
+        android:title="Penilaian"
+        android:icon="@drawable/baseline_menu_book_24"
+        />
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/baseline_account_circle_24"
+        />
+</menu>

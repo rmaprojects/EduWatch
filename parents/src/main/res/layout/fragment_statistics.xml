@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_weight="2"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.progressindicator.CircularProgressIndicator
+                    android:id="@+id/progress_bar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:layout_centerInParent="true"
+                    app:indicatorSize="128dp" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/txt_percentage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Loading..."
+                    android:textAppearance="@style/TextAppearance.Material3.TitleLarge" />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent">
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/txt_hadir"
+                    android:layout_width="match_parent"
+                    android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+                    android:text="Hadir:"
+                    android:drawablePadding="12dp"
+                    app:drawableStartCompat="@drawable/baseline_square_24"
+                    app:drawableTint="?colorPrimary"
+                    android:layout_height="wrap_content"/>
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/txt_txt_izin"
+                    android:layout_width="match_parent"
+                    android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+                    android:text="Izin:"
+                    android:drawablePadding="12dp"
+                    android:layout_marginVertical="12dp"
+                    app:drawableStartCompat="@drawable/baseline_square_24"
+                    app:drawableTint="#FBC02D"
+                    android:layout_height="wrap_content"/>
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/txt_alpha"
+                    android:layout_width="match_parent"
+                    android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+                    android:text="Alpha:"
+                    android:drawablePadding="12dp"
+                    app:drawableStartCompat="@drawable/baseline_square_24"
+                    app:drawableTint="#D32F2F"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:text="Timeline"
+        android:layout_marginVertical="16dp"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.Material3.HeadlineLarge"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/progress_loading"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="128dp"
+        android:indeterminate="true"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+
+    <androidx.compose.ui.platform.ComposeView
+        android:id="@+id/layout_timeline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

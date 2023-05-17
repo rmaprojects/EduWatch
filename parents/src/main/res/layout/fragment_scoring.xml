@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        app:endIconMode="dropdown_menu"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+            android:id="@+id/input_class_year"
+            android:layout_width="match_parent"
+            android:inputType="none"
+            style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
+            android:hint="Pilih Kelas"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        app:tabIndicatorFullWidth="false"
+        android:layout_marginTop="12dp"
+        app:tabTextAppearance="@style/TextAppearance.Material3.BodyLarge"
+        app:tabSelectedTextAppearance="@style/TextAppearance.Material3.BodyLarge"
+        android:layout_height="wrap_content">
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:text="PTS"
+            android:layout_height="wrap_content"/>
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:text="PAS"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

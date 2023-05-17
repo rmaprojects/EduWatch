@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graph_parents_navigation"
+    app:startDestination="@id/nav_student_stat">
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.rmaprojects.eduwatch.presentation.ProfileFragment"
+        android:label="ProfileFragment" />
+    <fragment
+        android:id="@+id/nav_calendar_student"
+        android:name="com.rmaprojects.parents.presentation.calendar.CalendarFragment"
+        android:label="CalendarFragment" />
+    <fragment
+        android:id="@+id/nav_student_scoring"
+        android:name="com.rmaprojects.parents.presentation.scoring.ScoringFragment"
+        android:label="ScoringFragment" />
+    <fragment
+        android:id="@+id/nav_student_stat"
+        android:name="com.rmaprojects.parents.presentation.statistics.StatisticFragment"
+        android:label="StatisticFragment"
+        tools:layout="@layout/fragment_statistics"/>
+</navigation>

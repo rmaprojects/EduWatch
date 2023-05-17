@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graph_teachers_navigation"
+    app:startDestination="@id/nav_student_list">
+
+    <fragment
+        android:id="@+id/nav_student_list"
+        android:name="com.rmaprojects.teachers.presentation.student_list.dashboard.StudentListDashboardFragment"
+        android:label="StudentListDashboardFragment"
+        tools:layout="@layout/fragment_student_list_dashboard">
+        <action
+            android:id="@+id/action_studentListDashboardFragment_to_studentListInputFragment"
+            app:destination="@id/studentListInputFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_teacher_attendance"
+        android:name="com.rmaprojects.teachers.presentation.attendance.AttendanceFragment"
+        tools:layout="@layout/fragment_attendance"/>
+    <fragment
+        android:id="@+id/nav_assign_student"
+        android:name="com.rmaprojects.teachers.presentation.assign_student.dashboard.AssignStudentDashboardFragment"
+        tools:layout="@layout/fragment_assign_student_dashboard">
+        <action
+            android:id="@+id/action_nav_assign_student_to_assignStudentInputFragment"
+            app:destination="@id/assignStudentInputFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/assignStudentInputFragment"
+        android:name="com.rmaprojects.teachers.presentation.assign_student.input.AssignStudentInputFragment"
+        tools:layout="@layout/fragment_assign_student_input"/>
+    <fragment
+        android:id="@+id/studentListInputFragment"
+        android:name="com.rmaprojects.teachers.presentation.student_list.input.StudentListInputFragment"
+        tools:layout="@layout/fragment_student_list_input"/>
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.rmaprojects.eduwatch.presentation.ProfileFragment"
+        android:label="ProfileFragment" />
+    <fragment
+        android:id="@+id/nav_scoring"
+        android:name="com.rmaprojects.teachers.presentation.student_scoring.dashboard.StudentScoringDashboardFragment"
+        >
+        <action
+            android:id="@+id/action_nav_scoring_to_studentScoringDashboardInput"
+            app:destination="@id/studentScoringDashboardInput" />
+    </fragment>
+    <fragment
+        android:id="@+id/studentScoringDashboardInput"
+        android:name="com.rmaprojects.teachers.presentation.student_scoring.input.StudentScoringInputFragment"
+        />
+</navigation>

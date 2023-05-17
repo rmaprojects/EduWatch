@@ -1,0 +1,155 @@
+{
+  "project_info": {
+    "project_number": "607334149873",
+    "project_id": "eduwatch-1baef",
+    "storage_bucket": "eduwatch-1baef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607334149873:android:4ddea6e4d4518c6d260350",
+        "android_client_info": {
+          "package_name": "com.rmaprojects.auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607334149873-q5alcme5mth6vn788786kdso89r2kkk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClZYD5FczWEpQLCFtaWg2kdn9MNvFLTkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607334149873-q5alcme5mth6vn788786kdso89r2kkk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607334149873:android:f2b18839f9f4c2a1260350",
+        "android_client_info": {
+          "package_name": "com.rmaprojects.core"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607334149873-q5alcme5mth6vn788786kdso89r2kkk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClZYD5FczWEpQLCFtaWg2kdn9MNvFLTkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607334149873-q5alcme5mth6vn788786kdso89r2kkk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607334149873:android:5f556ded6c5f238e260350",
+        "android_client_info": {
+          "package_name": "com.rmaprojects.eduwatch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607334149873-q5alcme5mth6vn788786kdso89r2kkk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClZYD5FczWEpQLCFtaWg2kdn9MNvFLTkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607334149873-q5alcme5mth6vn788786kdso89r2kkk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607334149873:android:5f68b5c64e65645b260350",
+        "android_client_info": {
+          "package_name": "com.rmaprojects.parents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607334149873-q5alcme5mth6vn788786kdso89r2kkk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClZYD5FczWEpQLCFtaWg2kdn9MNvFLTkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607334149873-q5alcme5mth6vn788786kdso89r2kkk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607334149873:android:51d573cf677b9408260350",
+        "android_client_info": {
+          "package_name": "com.rmaprojects.teachers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607334149873-q5alcme5mth6vn788786kdso89r2kkk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClZYD5FczWEpQLCFtaWg2kdn9MNvFLTkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607334149873-q5alcme5mth6vn788786kdso89r2kkk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

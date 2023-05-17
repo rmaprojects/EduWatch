@@ -1,0 +1,39 @@
+dependencies {
+    implementation 'androidx.core:core-ktx:1.9.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.6.1"
+    implementation "androidx.navigation:navigation-fragment-ktx:2.5.3"
+    implementation 'androidx.navigation:navigation-ui-ktx:2.5.3'
+    implementation 'com.github.kirich1409:viewbindingpropertydelegate-full:1.5.8'
+
+    // Compose
+    implementation 'androidx.compose.material3:material3:1.0.1'
+    implementation 'androidx.compose.material:material-icons-extended:1.4.0'
+    debugImplementation "androidx.compose.ui:ui-tooling:1.5.0-alpha01"
+    implementation "androidx.compose.ui:ui-tooling-preview:1.5.0-alpha01"
+
+    //Dagger-Hilt
+    implementation "com.google.dagger:hilt-android:2.44"
+    kapt "com.google.dagger:hilt-compiler:2.44"
+
+    //Kotpref
+    implementation 'com.chibatching.kotpref:kotpref:2.13.1'
+    implementation 'com.chibatching.kotpref:initializer:2.13.1'
+    implementation 'com.chibatching.kotpref:enum-support:2.13.1'
+
+    //Testing
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    //Notification
+    implementation "io.karn:notify:1.4.0"
+
+    //Firebase
+    implementation 'com.google.firebase:firebase-crashlytics-ktx:18.3.6'
+    implementation 'com.google.firebase:firebase-analytics-ktx:21.2.1'
+}

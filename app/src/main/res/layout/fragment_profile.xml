@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="256dp"
+        android:src="@drawable/baseline_account_circle_24"
+        android:layout_height="256dp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_username"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.Material3.HeadlineLarge"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_role"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_marginVertical="16dp"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_user_id"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.Material3.BodySmall"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:layout_height="match_parent">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_log_out"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:text="Log Out"
+            android:backgroundTint="?colorError"
+            android:layout_height="56dp"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
